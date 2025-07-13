@@ -23,10 +23,10 @@ public class ProductController {
         return productService.getAll();
     }
 
-    @PostMapping
-    public Product save(@Valid @RequestBody Product product) {
-        return productService.save(product);
-    }
+//    @PostMapping
+//    public Product save(@Valid @RequestBody Product product) {
+//        return productService.save(product);
+//    }
 
     @PostMapping
     public ResponseEntity<ProductResponseDTO> createProduct(@RequestBody ProductRequestDto dto) {
