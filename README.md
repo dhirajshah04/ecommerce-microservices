@@ -18,3 +18,19 @@ This monorepo contains a full-stack backend system for an e-commerce platform, b
 
 ## 🚀 Running
 Make sure PostgreSQL is running at port 5433 (if using local), or use `docker-compose up` for full isolation.
+
+
+
+# E-Commerce Product Service
+
+This project is a **learning microservice** built with Spring Boot and PostgreSQL as part of a hands-on exploration of microservice architecture and best practices.
+
+It demonstrates:
+- Clean layered architecture (DTO, Service, Repository, Controller)
+- REST API design with Spring Boot
+- Database migrations with Flyway
+- Docker containerization (planned)
+- Service discovery with Eureka (upcoming)
+- Secure communication with JWT (upcoming)
+
+> ⚠️ **Note:** This is a demo/learning project and **not intended for production use** without further enhancements.
