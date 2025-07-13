@@ -31,3 +31,42 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Maven
+target/
+*.log
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# Env
+.env
+
+# Docker
+**/data/
+**/pgdata/
+**/.env
+**/node_modules/
+**/tmp/
+
+# Flyway
+**/flyway/sql/*~  # temporary files
+
+# VSCode
+.vscode/
+
