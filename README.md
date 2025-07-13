@@ -33,4 +33,15 @@ It demonstrates:
 - Service discovery with Eureka (upcoming)
 - Secure communication with JWT (upcoming)
 
+
+
+### Modules:
+- `eureka-server`: Service Discovery
+- `product-service`: Manages products
+- `api-gateway`: API routing and filtering (coming soon)
+- More services coming soon...
+
+> Built with Java 17+, Spring Boot 3.5+, Docker, PostgreSQL, and Spring Cloud.
+
+
 > ⚠️ **Note:** This is a demo/learning project and **not intended for production use** without further enhancements.
