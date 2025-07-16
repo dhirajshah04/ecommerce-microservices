@@ -33,4 +33,10 @@ public class ProductController {
         ProductResponseDTO created = productService.createProduct(dto);
         return ResponseEntity.ok(created);
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "Product service OK";
+    }
+
 }

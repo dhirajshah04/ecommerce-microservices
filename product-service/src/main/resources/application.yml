@@ -18,6 +18,9 @@ spring:
     locations: classpath:db/migration
 
 
+server:
+  port: 8081
+
 eureka:
   client:
     service-url:
