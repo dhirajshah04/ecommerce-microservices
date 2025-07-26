@@ -1,0 +1,11 @@
+-- V2__update_users_table.sql
+ALTER TABLE users
+    RENAME COLUMN username TO full_name;
+
+ALTER TABLE users
+    ALTER COLUMN full_name TYPE VARCHAR(255),
+    ALTER COLUMN email TYPE VARCHAR(255),
+    ALTER COLUMN email DROP NOT NULL;
+
+ALTER TABLE users
+    ADD COLUMN created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
