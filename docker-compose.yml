@@ -8,8 +8,28 @@ services:
       POSTGRES_PASSWORD: password
     ports:
       - "5433:5432"  # Host:Container
+    volumes:
+      - product-data:/var/lib/postgresql/data
     networks:
       - ecommerce-net
+
+  user-db:
+    image: postgres:17.5-alpine
+    container_name: user-db
+    environment:
+      POSTGRES_DB: user_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5434:5432"
+    volumes:
+      - user-data:/var/lib/postgresql/data
+    networks:
+      - ecommerce-net
+
+volumes:
+  product-data:
+  user-data:
 
 networks:
   ecommerce-net:
