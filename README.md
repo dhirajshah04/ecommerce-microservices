@@ -39,9 +39,10 @@ It demonstrates:
 - `eureka-server`: Service Discovery
 - `product-service`: Manages products
 - `api-gateway`: API routing and filtering (coming soon)
+- `user-serivice`: Mange Login, Register, Jwt tokens
 - More services coming soon...
 
-> Built with Java 17+, Spring Boot 3.5+, Docker, PostgreSQL, and Spring Cloud.
+> Built with Java 17+, Spring Boot 3.3+, Docker, PostgreSQL, and Spring Cloud.
 
 
 > ⚠️ **Note:** This is a demo/learning project and **not intended for production use** without further enhancements.
